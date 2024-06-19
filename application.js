@@ -41,7 +41,7 @@ $(function() {
 }
 
 // Fetch and initialize game with data
-fetch('questions_dev.json')
+fetch('questions.json')
     .then(response => response.json())
     .then(data => {
         initializeGame(data);
