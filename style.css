@@ -188,7 +188,6 @@ font-family: "Libre Bodoni", serif;
     display: flex;           /* Enables flexbox */
     justify-content: center; /* Centers children horizontally */
     align-items: center;     /* Aligns children vertically in the middle */
-    background-color: #000;
     width: 100%;             /* Takes full width of its container */
     height: auto;            /* Height adjusts to content */
 }
