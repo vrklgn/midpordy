@@ -62,10 +62,10 @@
             ]
         },
         {
-            "category": "Pizza ala Råcksta",
+            "category": "Pizzas",
             "questions": [
                 {
-                    "question": "Ett berg av skinka ligger i Råcksta överst på menyn",
+                    "question": "Ett berg av skinka ligger oftast överst på menyn",
                     "answer": "Answer 01",
                     "points": 100
                 },
@@ -85,7 +85,7 @@
                     "points": 400
                 },
                 {
-                    "question": "Kebab, Pommes, Vitlökssås - Denna narcissitiska pizza är INTE en kebabpizza.",
+                    "question": "Denna pizza är namnlike med Sveriges hockeylag!",
                     "answer": "Answer 05",
                     "points": 500
                   }
@@ -115,7 +115,7 @@
                     "points": 400
                 },
                 {
-                    "question": "Namnet på denna snaps kan få dig att tänka på en svensk industriell pionjär, men den är mest känd för sin robusta smak av kummin och anis",
+                    "question": "Detta namn på en snaps kan få en att tänka på den sydligaste delen av Sverige, och dess distinkta kryddning är ett måste vid regionens många festligheter.",
                     "answer": "Answer 05",
                     "points": 500
                  }
@@ -240,7 +240,7 @@
                   }
             ]
         },{
-            "category": "PLACEHOLDER",
+            "category": "Anime",
             "questions": [
                 {
                     "question": "I denna anime kämpar huvudpersonen Saitama mot olika monster och skurkar, men med vilket antal slag besegrar han oftast sina fiender?",
