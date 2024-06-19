@@ -1,0 +1,100 @@
+<html>
+<head>
+	<title>AYSTAT</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<script src="jquery.js"></script>
+	<script src="models.js"></script>
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>-->
+	<script src="application.js"></script>
+</head>
+<body>
+<div id="nameOverlay"></div>
+	<!-- Audio files -->
+	<div id="sounds">
+		<audio id="s1" preload="auto" autobuffer> 
+		  <source src="sound/effect1.mp3" />
+		</audio>
+		<audio id="s2" preload="auto" autobuffer> 
+		  <source src="sound/effect2.mp3" />
+		</audio>
+		<audio id="s3" preload="auto" autobuffer> 
+		  <source src="sound/effect3.mp3" />
+		</audio>
+		<audio id="sWrong" preload="auto" autobuffer> 
+		  <source src="sound/wrong.mp3" />
+		</audio>
+		<audio id="sdku" preload="auto" autobuffer> 
+		  <source src="sound/dku.mp3" />
+		</audio>
+	</div>
+	
+	<div id="testSounds">
+	</div>
+	
+	<div id="finalQuestionCategory">
+		<h1>FINAL QUESTION <br/>-----<br/>Names & Faces</h1><!-- Ändra det här plox -->
+	</div>
+	
+	<div id="finalQuestion">
+		<!-- Change me -->
+		<h1>This first name belongs to 10 employees ranking as the most common name at Tink </h1>
+		<!-- Answer is -->
+	</div>
+	
+	<!-- Player pictures -->
+	<img src="img/lilac.jpg" class="playerpic" id="p1pic" />
+	<img src="img/orange.jpg" class="playerpic" id="p2pic" />
+	<img src="img/coffee.jpg" class="playerpic" id="p3pic" />
+	
+	<h2 id="wrong">WRONG</h2>
+	<h2 id="right">RIGHT</h2>
+	<h2 id="playerNameFromAnsweringPlayer"></h2>
+	<audio id="sBidup" preload="auto" autobuffer><source src="sound/bidup.mp3" /></audio>
+	
+	<div id="highscore">
+		<div class="p1"><p style="font-size:40px; font-family: LotaBold;" id="p1Name">TuneTitans</p><span>000</span></div>
+		<div class="p2"><p style="font-size:40px; font-family: LotaBold;" id="p2Name">HighFive</p><span>000</span></div>
+		<div class="p3"><p style="font-size:40px; font-family: LotaBold;" id="p3Name">Slackers</p><span>000</span></div>
+	</div>
+	
+	<!-- Categories -->
+	<div id="categories">
+		<h1>CATEGORY HERE</h1>
+	</div>
+	
+	
+	<!-- Question in focus -->
+	<div class="overlay">
+		<div class="bubble">
+			<div class="wrapper">
+				<div class="innerWrapper">
+					<div class="points"><span>xxx</span></div>
+					<p></p>
+					<div class="endline"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<div class="roundsWrapper">
+	<div class="slidedeck">
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQ8_6oIsHqWihEUqv8RRVifHxD3wM7vaLiNwQIY-BdPULNZy2fp0-zzVeIsyFc2H1J78iG-3hm8c6l8/embed?start=false&loop=false&slide=id.g2df35db3c78_0_43" frameborder="0" width="1200px" height="720px" allowfullscreen="false" mozallowfullscreen="false" webkitallowfullscreen="false"></iframe></div>
+<div id="buzzerstatus">BUZZERS ACTIVATED</div>
+	<div id="round1" class="round">
+
+		<div class="category c1">
+			<h1></h1>
+		</div>
+	
+	
+		
+	</div>
+	<!-- End of round 1 -->
+
+</div>
+<!-- End of wrapper -->
+
+	
+</body>
+</html>

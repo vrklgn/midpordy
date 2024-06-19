@@ -1,0 +1,302 @@
+{
+    "categories": {
+        "round1":[
+            {
+            "category": "Så låter djuret",
+            "questions": [
+                {
+                    "question":"<img src='img-c-1/01.jpg'>",
+                    "answer": "Answer 01",
+                    "points": 100
+                },
+                {
+                    "question": "<img src='img-c-1/02.jpg'>",
+                    "answer": "Answer 02",
+                    "points": 200
+                },
+                {
+                    "question": "<img src='img-c-1/03.jpg'>",
+                    "answer": "Answer 03",
+                    "points": 300
+                },
+                {
+                    "question": "<img src='img-c-1/04.jpg'>",
+                    "answer": "Answer 04",
+                    "points": 400
+                },
+                {
+                    "question": "<img src='img-c-1/05.jpg'>",
+                    "answer": "Answer 05",
+                    "points": 500
+                }
+            ]
+        },
+        {
+            "category": "Handspel",
+            "questions": [
+                {
+                    "question": "En sprakande fruktsallad ska möta ditt svärd men akta dig för de dödliga bomberna.",
+                    "answer": "Answer 01",
+                    "points": 100
+                },
+                {
+                    "question": "'Sweet' - detta söta beroendeframkallande spel har i dagsläget 16775 nivåer",
+                    "answer": "Answer 02",
+                    "points": 200
+                },
+                {
+                    "question": "Sus, I detta rymdtematiserade spel måste spelare samarbeta för att undvika vem bland besättningen som är en förrädare innan det är för sent",
+                    "answer": "Answer 03",
+                    "points": 300
+                },
+                {
+                    "question": "Svart, Vit, Röd, Blå, Gul, Lila, Darth Vader, ja färgerna är verkligen överallt på dessa fjäderfän",
+                    "answer": "Answer 04",
+                    "points": 400
+                },
+                {
+                    "question": "I detta kortspel baserat på World of Warcraft-universumet samlar spelare kort och duellerar mot andra för att visa strategisk skicklighet",
+                    "answer": "Answer 05",
+                    "points": 500
+                }
+            ]
+        },
+        {
+            "category": "Pizza ala Råcksta",
+            "questions": [
+                {
+                    "question": "Ett berg av skinka ligger i Råcksta överst på menyn",
+                    "answer": "Answer 01",
+                    "points": 100
+                },
+                {
+                    "question": "Here I go again med Champinjoner & Räkor på min pizza",
+                    "answer": "Answer 02",
+                    "points": 200
+                },
+                {
+                    "question": "'Fyra olika sorters ost'- oklart vilka",
+                    "answer": "Answer 03",
+                    "points": 300
+                },
+                {
+                    "question": "Ett cinematiskt <b>'offer you cant refuse'</b> - Pizza med Oxfile, Lök, Tomat, Gorgonzola, Paprika och Bea.",
+                    "answer": "Answer 04",
+                    "points": 400
+                },
+                {
+                    "question": "Kebab, Pommes, Vitlökssås - Denna narcissitiska pizza är INTE en kebabpizza.",
+                    "answer": "Answer 05",
+                    "points": 500
+                  }
+            ]
+        },
+        {
+            "category": "Svenska Snapsar",
+            "questions": [
+                {
+                    "question":"01",
+                    "answer": "Answer 01",
+                    "points": 100
+                },
+                {
+                    "question": "02",
+                    "answer": "Answer 02",
+                    "points": 200
+                },
+                {
+                    "question": "03",
+                    "answer": "Answer 03",
+                    "points": 300
+                },
+                {
+                    "question": "04",
+                    "answer": "Answer 04",
+                    "points": 400
+                },
+                {
+                    "question": "05",
+                    "answer": "Answer 05",
+                    "points": 500
+                 }
+            ]
+        },
+        {
+            "category": "Linjer från vadå",
+            "questions": [
+                {
+                    "question": "<img src='img-c-2/01.png'>",
+                    "answer": "Answer 01",
+                    "points": 100
+                },
+                {
+                    "question": "<img src='img-c-2/02.png'>",
+                    "answer": "Answer 02",
+                    "points": 200
+                },
+                {
+                    "question": "<img src='img-c-2/03.png'>",
+                    "answer": "Answer 03",
+                    "points": 300
+                },
+                {
+                    "question": "<img src='img-c-2/04.png'>",
+                    "answer": "Answer 04",
+                    "points": 400
+                },
+                {
+                    "question": "<img src='img-c-2/05.png'>",
+                    "answer": "Answer 05",
+                    "points": 500
+                  }
+            ]
+        }],"round2":[
+                {
+            "category": "Millenialt",
+            "questions": [
+                {
+                    "question": "Johan Rheborg hjälte från detta TV-program (och sedemera film) slogs mot Dr. Deo och hans Mähälium 1998",
+                    "answer": "Answer 01",
+                    "points": 200
+                },
+                {
+                    "question": "Denna färg skulle alla ha på sig under en Kentkonsert 2003",
+                    "answer": "Answer 02",
+                    "points": 400
+                },
+                {
+                    "question": "I detta sötsaksdoftande-program yttrades frasen - Som vanligt är det inte personen i filmen som har skrivit brevet. ",
+                    "answer": "Answer 03",
+                    "points": 600
+                },
+                {
+                    "question": "Galaxer i mina braxer -detta Sommarlovsmorgon förgylldes år 2000 med Femman, Peo, Glen, Henrik och Mira",
+                    "answer": "Answer 04",
+                    "points": 800
+                },
+                {
+                    "question": "Detta tv-program visade SVT mellan 1996-2002  där 10 musikvideos tävlade mot varandra",
+                    "answer": "Answer 05",
+                    "points": 1000
+                  }
+            ]
+        },
+                        {
+            "category": "Förrätter",
+            "questions": [
+                {
+                    "question": "Kall. Spansk. Soppa.",
+                    "answer": "Answer 01",
+                    "points": 200
+                },
+                {
+                    "question": "Denna klassiska svenska förrätt kombinerar räkor med majonnäs på ett toastat bröd och är uppkallad efter en naturskön plats i Danmark",
+                    "answer": "Answer 02",
+                    "points": 400
+                },
+                {
+                    "question": "Denna luftiga delikatess kräver skickligt handlag med äggvitor för att inte bli pannkaka",
+                    "answer": "Answer 03",
+                    "points": 600
+                },
+                {
+                    "question": "Italiensk förrätt där tunna skivor rått kött kryddas med citronsaft, olivolja, salt och peppar.",
+                    "answer": "Answer 04",
+                    "points": 800
+                },
+                {
+                    "question": "En liten rätt från Frankrike där råa grönsaker doppas i kräming sås",
+                    "answer": "Answer 05",
+                    "points": 1000
+                  }
+            ]
+        },{
+            "category": "Behövs mer pixlar",
+            "questions": [
+                {
+                    "question": "Så heter filmen<br/><video onclick='this.load()' controls autoplay src='video/01.mp4'></video>",
+                    "answer": "Answer 01",
+                    "points": 200
+                },
+                {
+                    "question": "Så heter filmen<br/><video onclick='this.load()' controls autoplay src='video/02.mp4'></video>",
+                    "answer": "Answer 02",
+                    "points": 400
+                },
+                {
+                    "question": "Så heter filmen<br/><video onclick='this.load()' controls autoplay src='video/03.mp4'></video>",
+                    "answer": "Answer 03",
+                    "points": 600
+                },
+                {
+                    "question": "Så heter filmen<br/><video onclick='this.load()' controls autoplay src='video/04.mp4'></video>",
+                    "answer": "Answer 04",
+                    "points": 800
+                },
+                {
+                    "question": "Så heter filmen<br/><video onclick='this.load()' controls autoplay src='video/05.mp4'></video>",
+                    "answer": "Answer 05",
+                    "points": 1000
+                  }
+            ]
+        },{
+            "category": "PLACEHOLDER",
+            "questions": [
+                {
+                    "question": "I denna anime kämpar huvudpersonen Saitama mot olika monster och skurkar, men med vilket antal slag besegrar han oftast sina fiender?",
+                    "answer": "Answer 01",
+                    "points": 200
+                },
+                {
+                    "question": "Denna Anime har samma namn som ett blekningsmedel",
+                    "answer": "Answer 02",
+                    "points": 400
+                },
+                {
+                    "question": "Avatar: The Last Airbender är inte ens en anime, från detta land kommer serien ursprungligen.",
+                    "answer": "Answer 03",
+                    "points": 600
+                },
+                {
+                    "question": "Så heter denna pirat leder Straw Hat Pirates med sin gummi-gummi förmåga i jakten på den största skatten i serien One Piece",
+                    "answer": "Answer 04",
+                    "points": 800
+                },
+                {
+                    "question": "I denna anime kämpar huvudpersonen Saitama mot olika monster och skurkar, men med vilket antal slag besegrar han oftast sina fiender?",
+                    "answer": "Answer 05",
+                    "points": 1000
+                  }
+            ]
+        },
+                {
+            "category": "Stora Bollar",
+            "questions": [
+                {
+                    "question":"Bollen i denna sport är tekniskt ett klot, ironiskt ger denna fråga inte 300 poäng",
+                    "answer": "Answer 01",
+                    "points": 200
+                },
+                {
+                    "question": "Klonken & Dunken är dom största bollarna i denna fiktiva sport",
+                    "answer": "Answer 02",
+                    "points": 400
+                },
+                {
+                    "question": "Denna gummiboll ska i sporten landa 3,05 meter över marken i ett nät",
+                    "answer": "Answer 03",
+                    "points": 600
+                },
+                {
+                    "question": "En match i denna sport kan ta 3-5 arbetsdagar om man inte väljer att spela den modernare T20 ",
+                    "answer": "Answer 04",
+                    "points": 800
+                },
+                {
+                    "question": "I denna paralympiska sport använder spelarna ögonbindlar och försöker få en bjällerfylld boll över motståndarnas mållinje",
+                    "answer": "Answer 05",
+                    "points": 1000
+                 }
+            ]}]
+    }
+}

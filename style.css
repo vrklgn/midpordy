@@ -1,0 +1,555 @@
+/*.highscore {
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	color: #fff;
+	z-index: 300;
+}*/
+
+video {
+	z-index: 9001;
+	height: 100%;
+	width: 100%;
+}
+
+#finalscore {
+	z-index: 10001;
+	position: absolute;
+	font-family: "Libre Bodoni", serif;
+	background-color: rgba(255, 255, 255, 0);
+	width: 100%;
+	height: 100%;
+	color: #FFF;
+	text-align: center;
+	display: none;
+
+}
+
+
+
+#finalscore input {
+
+font-size: 50px;
+width: 100%;
+height:80px;
+border-radius: 10px;
+font-family: "Libre Bodoni", serif;
+text-align: center;
+background-color: rgba(0, 0, 0, 0.2);
+border-color: #FFF;
+border-width: 5px;
+color: #FFF;
+border-style: solid;
+
+}
+
+#finalscore button {
+
+font-size: 30px;
+border-radius: 10px;
+text-align: center;
+margin: 10px;
+width:33%;
+height:50px;
+background-color: rgba(255, 255, 255, 100);
+
+}
+
+#fsbubble {
+	text-align: center;
+	width: 100%;
+	display: flex; 
+	align-items: center;
+
+
+}
+
+#finalscore #fsbubble p{
+color: #FFF;
+    width: 120px;
+    text-align: center;
+    border-radius: 30px;
+    border-width: 10px;
+    font-size: 120px;
+    font-family: "Libre Bodoni", serif;
+    font-optical-sizing: auto;
+    line-height: 100px;
+    margin-top: 60px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    background-color: #fff;
+    border-style: solid;
+    padding: 50px;
+    flex: 0 0 33%;   
+
+}
+
+#finalscore .highscorewrapper {
+ justify-content: center;
+    align-items: center;
+    width: 100%;               /* Ensure full width */
+    height: 100%;              /* Optional: Adjust if you need specific height */
+    display: flex;
+}
+
+#finalscore .highscorewrapper .highscorewinnerWrapper {
+	position: relative;
+}
+
+.videoOverlay {
+
+	z-index: 101;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	display: none;
+}
+
+#testSounds {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #fee9e2;
+	z-index: 4000;	
+}
+
+#instructions {
+font-family: "Libre Bodoni", serif;
+    font-optical-sizing: auto;
+    position: relative;
+    margin-left: 100px;
+    text-align: center;
+    margin-top: 18%;
+    color: #31352b;
+    line-height: 5em;
+}
+
+
+#instructions h2 {
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.28em;
+    margin: 0;
+    font-size: 2em;
+}
+
+#instructions h3 {
+	font-weight: 400;
+	font-size: 20em;
+	font-style: italic;
+	margin: 0;
+	letter-spacing: -0.03em;
+}
+
+.hsbubble {
+
+	background-color: rgba(246, 147, 193, 0.0);
+	z-index: 20000;
+	text-align: center;
+	font-size: 60px;
+	  font-family: "Libre Bodoni", serif;
+  font-optical-sizing: auto;
+	/* Fixes for center */
+	width: 100%;
+	display: flex; 
+	align-items: center;
+
+}
+
+#highscore {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-color: rgba(255, 255, 255, 0.92);
+	z-index: 10000;
+	display: none;
+
+}
+
+
+
+
+#highscore .highscorewrapper {
+ justify-content: center;
+    align-items: center;
+    width: 100%;               /* Ensure full width */
+    height: 100%;              /* Optional: Adjust if you need specific height */
+    display: flex;
+}
+
+#highscore .highscorewrapper .highscorewinnerWrapper {
+	position: relative;
+}
+
+.hsblob {
+    display: flex;           /* Enables flexbox */
+    justify-content: center; /* Centers children horizontally */
+    align-items: center;     /* Aligns children vertically in the middle */
+    background-color: #000;
+    width: 100%;             /* Takes full width of its container */
+    height: auto;            /* Height adjusts to content */
+}
+
+.fsblob {
+    display: flex;           /* Enables flexbox */
+    justify-content: center; /* Centers children horizontally */
+    align-items: center;     /* Aligns children vertically in the middle */
+    background-color: #000;
+    width: 100%;             /* Takes full width of its container */
+    height: auto;  
+    margin-top: 350px;
+
+              /* Height adjusts to content */
+}
+
+#highscore div .hsblob div{
+color: #FFF;
+    width: 120px;
+    height: 230px;
+    text-align: center;
+    border-radius: 30px;
+    border-width: 10px;
+    font-size: 90px;
+    font-family: "Libre Bodoni", serif;
+    font-optical-sizing: auto;
+    line-height: 100px;
+    margin-top: 60px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    background-color: #fff;
+    border-style: solid;
+    padding: 50px;
+    flex: 0 0 33%;                 /* Each child will take equal width */
+}
+
+#highscore div .hsblob .p1{
+	background-color: rgba(217, 4, 22, 0.8);
+
+}
+
+#highscore div .hsblob .p2{
+	background-color: rgba(4, 104, 191, 0.8);
+}
+
+#highscore div .hsblob .p3{
+	background-color: rgba(255, 128, 46, 0.8);
+
+}
+
+#highscore div .hsblob .p4{
+	background-color: rgba(24, 28, 38, 0.8);
+
+}
+
+#middlecon {
+	left: 10%
+}
+
+#player {
+	font-size: 20px;
+	}
+	
+.q {
+	display: none;
+}
+
+.a {
+	display: none;
+}
+
+.bubble img{
+	border-radius: 10px;
+	max-width: 80%;
+}
+
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+.innerWrapper p {
+	padding: 20px 20;
+}
+
+html {
+	margin: 0;
+	padding: 0;
+	cursor: crosshair !important;
+}
+
+body {
+	  font-family: "Libre Bodoni", serif;
+  font-optical-sizing: auto;
+	font-size: 16px;
+	color: #122930;
+	margin: 0;
+	padding: 0;
+	background-size: 40px 40px;
+	background-color: #FFFFFA;
+	background-image:
+	linear-gradient(to right, transparent 1px, transparent 1px),
+	linear-gradient(to bottom, #E9EAE9 2px, transparent 1px);
+}
+
+#finalQuestion, #finalQuestionCategory {
+	display: none;
+}
+
+	
+#categories, #finalQuestion, #finalQuestionCategory {
+	height: 100%;
+	width: 100%;
+	color: #122930;
+	position: absolute;
+	z-index: 3000;
+	text-align: center;
+	background-size: 40px 40px;
+	background-color: #FFFFFA;
+	background-image:
+	linear-gradient(to right, transparent 1px, transparent 1px),
+	linear-gradient(to bottom, #E9EAE9 2px, transparent 1px);
+}
+
+#finalQuestionCategory {
+	z-index: 9000;
+}
+
+#finalQuestion {
+	z-index: 10000;
+}
+
+#categories h1, #finalQuestion h1, #finalQuestionCategory h1 {
+	margin-top: 270px;
+	font-size: 8em;
+	color: #122930;
+	font-family: "Libre Bodoni", serif;
+  font-optical-sizing: auto;
+	line-height: 100px;
+}
+
+#finalQuestion h1 {
+	font-size: 60px;
+}
+
+@font-face {  
+  font-family: LG ;  
+  src: url( fonts/lg.otf ) format("opentype");  
+}  
+
+@font-face {  
+  font-family: LotaBold;  
+  src: url( fonts/LotaGrotesqueBold.otf ) format("opentype");  
+}  
+
+@font-face {  
+  font-family: LotaSemi;  
+  src: url( fonts/LotaGrotesqueSemiBold.otf ) format("opentype");  
+}  
+
+@font-face {  
+  font-family: Permanent ;  
+  src: url( fonts/PermanentMarker-Regular.ttf ) format("truetype");  
+}  
+
+.overlay {
+	background-color: rgba(145, 164, 105, 0.9);
+	z-index: 100;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+.overlay .answer {
+display: none;
+}
+
+.points, .endline {
+	background: url(img/stroke.png) repeat-x 0 50%;
+	margin: 50px 120px 0;
+}
+
+.endline {
+	height: 30px;
+	margin: 0 140px;
+}
+
+.points span {
+	background-color: #fff;
+	padding: 0 30px;
+	font-family: "Libre Bodoni", serif;
+  	font-optical-sizing: auto;
+	font-weight: 600;
+
+}
+
+.bubble {
+	position: relative;
+	width: 1000px;
+	height: 720px;
+	background-color: #fff;
+	z-index: 200;
+	margin: 120px auto;
+	border-radius: 30px;
+	text-align: center;
+	font-size: 60px;
+	  font-family: "Libre Bodoni", serif;
+  font-optical-sizing: auto;
+	/* Fixes for center */
+	display: table; 
+	position: static;
+}
+
+.bubble .wrapper {
+	display: table-cell; 
+	vertical-align: middle; 
+}
+
+.bubble .wrapper .innerWrapper {
+	position: relative;
+	top: -20px;	
+}
+
+.category {
+	width: 18%;
+	height: 100%;
+	float: left;
+	text-align: center;
+	margin-right: 1%;
+	margin-left: 1%;
+  font-weight: bold;
+}
+
+h1 {
+	margin: 20px 0 10px;
+	height: 80px;
+	color: #fff;
+	font-size: 25px;
+	line-height: 34px;
+}
+
+.category div {
+	width: 100%;
+	height: 170px;
+	background-color: #FFD3A5;
+	border-radius: 10px;
+	margin: 10px auto;
+	line-height: 170px;
+	font-size: 70px;
+	font-family: "Libre Bodoni";
+	font-weight: 500;
+  font-style: normal;
+}
+
+.category h1  {
+	background-color: rgba(254, 233, 226, 0);
+	color: #31352b;
+	border-radius: 10px;
+	margin: 10px auto;
+	height: 100px;
+	line-height: 100px;
+	font-size: 2.2em;
+	font-family: "Libre Bodoni";
+	font-weight: 800;
+  font-style: normal;
+}
+
+/* Animate */
+
+* {
+	-webkit-transition: * 0.5s ease-in;
+	transition: * 0.5s ease-in;
+}
+
+.category .clicked {
+	-webkit-transition: * 0.5s ease-in;
+	transition: * 0.5s ease-in;
+	width: 100px;	
+}
+
+
+#p1pic, #p2pic, #p3pic, #p4pic , #p5pic , #p6pic {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 5000;
+	display: none;
+}
+
+/*#p1pic {
+	background: url(img/nyancat.png) no-repeat;
+}
+
+#p2pic {
+	background: url(img/lazer.jpg) no-repeat;
+}
+
+#p3pic {
+	background: url(img/popipo.jpg) no-repeat;
+}*/
+
+#right, #wrong {
+	display: none;
+	margin: 0;
+	padding: 0;
+}
+
+#wrong, #right {
+	color: #fff;
+	text-align: center;
+	font-size: 240px;
+	font-weight: bold;
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-top: 200px;
+	width: 100%;
+	z-index: 8000;
+}
+
+#round2 {
+	display: none;
+}
+
+#finalQuestion {
+	
+	display: none;
+}
+
+#playerNameFromAnsweringPlayer {
+	color: #fff;
+	text-align: center;
+	font-size: 260px;
+	font-weight: bold;
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-top: 200px;
+	width: 100%;
+	z-index: 9002;
+	text-transform: uppercase;
+	text-shadow: 0 3px 10px rgba(0,0,0,0.5);
+	display: none;
+}
+
+#nameOverlay {
+	display: none;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #000;
+	font-family: "permanent";
+	z-index: 10001;
+	line-height: 600px;
+	text-align: center;
+	font-size: 140px;
+	color: #fff;
+}

@@ -1,0 +1,139 @@
+<html>
+<head>
+	<title>AYSTAT</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<script src="jquery.js"></script>
+	<script src="models.js"></script>
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>-->
+	<script src="application.js"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet"></head>
+<body>
+<div id="nameOverlay"></div>
+	<!-- Audio files -->
+	<div id="sounds">
+		<audio id="s1" preload="auto" autobuffer> 
+		  <source src="sound/effect1.mp3" />
+		</audio>
+		<audio id="s2" preload="auto" autobuffer> 
+		  <source src="sound/effect2.mp3" />
+		</audio>
+		<audio id="s3" preload="auto" autobuffer> 
+		  <source src="sound/effect3.mp3" />
+		</audio>
+		<audio id="s4" preload="auto" autobuffer> 
+		  <source src="sound/effect4.mp3" />
+		</audio>
+		<audio id="sWrong" preload="auto" autobuffer> 
+		  <source src="sound/wrong.mp3" />
+		</audio>
+		<audio id="sdku" preload="auto" autobuffer> 
+		  <source src="sound/dku.mp3" />
+		</audio>
+	</div>
+
+	<div class="videoOverlay">
+		<video src="video/01.mp4">
+		</video>
+		<video src="video/02.mp4">
+		</video>
+		<video src="video/03.mp4">
+		</video>
+		<video src="video/04.mp4">
+		</video>
+		<video src="video/05.mp4">
+		</video>
+	</div>
+	
+	<div id="testSounds">
+		<div id="instructions">
+		<h2>Midsommar 2024</h2>
+		<h3>Jeppordy</h3>
+	</div>
+	</div>
+	
+	<div id="finalQuestionCategory">
+		<h1>FINAL <br/>-----<br/>Sagodjur</h1><!-- Ändra det här plox -->
+	</div>
+	
+	<div id="finalQuestion">
+		<!-- Change me -->
+		<h1>Detta nordiska sagodjur finns på nätet, finns i tänderna men kanske mest återfinns i skogarna</h1>
+		<!-- Answer is -->
+	</div>
+	
+	<!-- Player pictures -->
+	<img src="img/lilac.jpg" class="playerpic" id="p1pic" />
+	<img src="img/orange.jpg" class="playerpic" id="p2pic" />
+	<img src="img/coffee.jpg" class="playerpic" id="p3pic" />
+	<img src="img/coffee.jpg" class="playerpic" id="p4pic" />
+	
+	<h2 id="wrong">WRONG</h2>
+	<h2 id="right">RIGHT</h2>
+	<h2 id="playerNameFromAnsweringPlayer"></h2>
+	<audio id="sBidup" preload="auto" autobuffer><source src="sound/bidup.mp3" /></audio>
+	
+	<div id="highscore">
+		<div class="hsbubble">
+		<div class="highscorewrapper">
+		<div class="highscorewinnerWrapper">
+		<div class="hsblob">
+		<div class="p1"><p style="font-size:40px;  "  id="p1Name">Jordgubbe</p><span>000</span></div>
+		<div class="p2"><p style="font-size:40px;  " id="p2Name">Blåbär</p><span>000</span></div>
+		<div class="p3"><p style="font-size:40px;  " id="p3Name">Hjortron</p><span>000</span></div>
+	</div>
+			</div>
+		</div>
+		</div>
+	</div>
+
+<div id="finalscore">
+	<div id="fsbubble">
+	<div class="highscorewrapper">
+	<div class="highscorewinnerWrapper">
+		<div class="fsblob">
+	<p style="background-color: rgba(217, 4, 22, 0.8);"><input id="strawberry" type="number" name="" value="0" minlength="1"><br/><button class="p2" type="button" id="strawberry-no">❌</button><button class="p2" type="button" id="strawberry">✅</button></p>
+	<p style="background-color: rgba(4, 104, 191, 0.8);"><input id="blueberry" type="number" name="" value="0" minlength="1"><br/><button class="p1" type="button" id="blueberry-no">❌</button><button class="p2" type="button" id="blueberry">✅</button></p>
+	<p style="background-color: rgba(255, 128, 46, 0.8);"><input id="cloudberry" type="number" name="" value="0" minlength="1"><br/><button class="p3" type="button" id="cloudberry-no">❌</button><button class="p2" type="button" id="cloudberry">✅</button></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+	
+	<!-- Categories -->
+	<div id="categories">
+		<h1>CAT 01</h1>
+	</div>
+	
+	
+	<!-- Question in focus -->
+	<div class="overlay">
+		<div class="bubble">
+			<div class="wrapper">
+				<div class="innerWrapper">
+					<div class="points"><span>xxx</span></div>
+					<p></p>
+					<div class="endline"></div>
+				</div>
+				<div class="answer"></div>
+			</div>
+		</div>
+	</div>
+
+<div class="roundsWrapper">
+	<div id="round1" class="round"></div>
+	<div id="round2" class="round"></div>
+	<!-- End of round 1 -->
+</div>
+<!-- End of wrapper -->
+
+	
+</body>
+</html>
+
+
