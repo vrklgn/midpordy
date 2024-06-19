@@ -92,30 +92,30 @@
             ]
         },
         {
-            "category": "Svenska Snapsar",
+            "category": "Helan Går",
             "questions": [
                 {
-                    "question":"01",
+                    "question":"Denna snaps delar namn med en sydsvensk region känd för sina äppelodlingar, men det är fläderblomman som ger dess karakteristiska smak",
                     "answer": "Answer 01",
                     "points": 100
                 },
                 {
-                    "question": "02",
+                    "question": "Namnet på denna snaps kan få dig att tänka på en svensk industriell pionjär, men den är mest känd för sin robusta smak av kummin och anis",
                     "answer": "Answer 02",
                     "points": 200
                 },
                 {
-                    "question": "03",
+                    "question": "Detta namn, som delas med en ö i Stockholms skärgård, anspelar på en snaps som är perfekt för sommarens segelturer",
                     "answer": "Answer 03",
                     "points": 300
                 },
                 {
-                    "question": "04",
+                    "question": "Detta snapsnamn anspelar på bitterhet och används traditionellt för att balansera rika smaker vid påskbordet",
                     "answer": "Answer 04",
                     "points": 400
                 },
                 {
-                    "question": "05",
+                    "question": "Namnet på denna snaps kan få dig att tänka på en svensk industriell pionjär, men den är mest känd för sin robusta smak av kummin och anis",
                     "answer": "Answer 05",
                     "points": 500
                  }
